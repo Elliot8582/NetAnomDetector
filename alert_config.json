@@ -1,0 +1,16 @@
+{
+  "smtp": {
+    "enabled": true,
+    "server": "smtp.mailserver.com",
+    "port": 587,
+    "username": "alerts@mail.com",
+    "password": "SuperSecret",
+    "from": "net-anom@mail.com",
+    "to": ["you@example.com"]
+  },
+  "slack": {
+    "enabled": false,
+    "webhook_url": "https://hooks.slack.com/services/..."
+  }
+}
+
